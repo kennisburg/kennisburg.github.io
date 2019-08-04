@@ -1,0 +1,295 @@
+body {
+  background: linear-gradient(-45deg, #ffaf5e, #5cd9ff);
+  font-family: montserrat;
+}
+
+/* #f2b8ff */
+
+.spacer {
+  margin: 20px;
+}
+
+li {
+  padding-top: 4px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+/* path {
+} */
+
+.name {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.contact {
+  position: relative;
+  top: -40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contact div, 
+.contact img, 
+.contact p {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.email img,
+.github img  {
+  margin-left: -15px;
+}
+
+.contactinfo1,
+.contactinfo2,
+.contactinfo3 {
+  position: relative;
+  z-index: -1;
+} 
+
+.icon {
+  width: 60px;
+}
+
+.contactwrap1,
+.contactwrap2,
+.contactwrap3 {
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  top: -12px;
+  right: 12px;
+}
+
+.contactwrap1 {
+  width: 197.05px;
+}
+.contactwrap2 {
+  width: 319.167px;
+}
+.contactwrap3 {
+  width: 335.25px;
+}
+
+
+h3 {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.line{
+  margin-bottom: 10px;
+  background: #000000;
+  width: 500px;
+  height: 3px;
+}
+
+h4 {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 20px;
+  /* margin-top: 10px; */
+}
+
+.skills,
+.projects,
+.workexp,
+.education {
+  margin: 20px;
+  padding-left: 23vw;
+  padding-right: 23vw;
+  font: bahnschrift;
+}
+
+.lang p, 
+.datab p, 
+.vc p ,
+.design p {
+  font-size: 15px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+.skills h4{
+  margin-left: 15px;
+  white-space: nowrap;
+}
+
+.skills p{
+  margin-left: 50px;
+}
+
+.skillwrap,
+.projwrap,
+.workwrap,
+.eduwrap {
+  overflow: hidden;
+  height: 27px;
+  width: 500px;
+}
+
+
+.projects {
+  width: 750px;
+}
+
+
+.projects h4 {
+  margin-left: 15px;
+}
+
+.projects a, 
+.projects p {
+  font-size: 17px;
+}
+
+.project {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.project ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.project1git a,
+.project1git div {
+  display: inline-block;
+}
+.project2git a,
+.project2git div {
+  display: inline-block;
+}
+.project3git a,
+.project3git div {
+  display: inline-block;
+}
+.project4git a,
+.project4git div {
+  display: inline-block;
+}
+
+
+
+.proj1infowrap, 
+.proj2infowrap, 
+.proj3infowrap, 
+.proj4infowrap {
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  top: 6px;
+}
+
+
+.proj1info,
+.proj2info,
+.proj3info,
+.proj4info {
+  position: relative;
+}
+
+.proj1infowrap {
+  width: 133.7px;
+}
+.proj2infowrap {
+  width: 212.133px;
+}
+
+.proj3infowrap {
+  width: 160.533px;
+}
+
+.proj4infowrap {
+  width: 281.483px;
+}
+
+
+li {
+  position: relative;
+}
+
+.liwrap {
+  position: relative;
+  overflow:hidden;
+  padding-left: 15px;
+  height: auto;
+}
+
+
+.workexp {
+  width: 750px;
+}
+
+.work {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.work p {
+  font-size: 17px;
+}
+
+.work ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.work1 p,
+.work1 div {
+  display: inline-block;
+}
+.work2 p,
+.work2 div {
+  display: inline-block;
+}
+.work3 p,
+.work3 div {
+  display: inline-block;
+}
+.work4 p,
+.work4 div {
+  display: inline-block;
+}
+.work5 p,
+.work5 div {
+  display: inline-block;
+}
+
+.work1wrap,
+.work2wrap,
+.work3wrap,
+.work4wrap,
+.work5wrap {
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  top: 5px;
+}
+
+.work1emp,
+.work2emp,
+.work3emp,
+.work4emp,
+.work5emp {
+  position: relative;
+}
+
+
+
+.education p {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  white-space: nowrap;
+}
